@@ -116,11 +116,20 @@ font-weight:100;
 
 /*----------------------------------------------------*/
 .lot{
-  margin-top: 180px;
-  max-width: 1052px;
-  max-height: 723px;
+margin: 0 auto;
+margin-top: 180px;
+max-width: 1052px;
+max-height: 723px;
 }
-
+.lots_heading{
+font-weight: 700;
+text-transform: uppercase;
+margin-left: 40px;
+margin-bottom: 27px;
+letter-spacing: 0;
+line-height: 100%;
+font-size: 40px;
+}
 
 .lots_card-list{
   position: relative; 
@@ -132,37 +141,133 @@ font-weight:100;
   gap: 20px;     
   grid-auto-rows: 596px;            
 }
-.lots_card_bacground{
-  position: absolute;  
-inset: 0;            
-background-color: rgba(0,0,0,0.2); 
-z-index: 1;
+
+.lots_card-list{
+  position: relative;
 }
 
 .lots_card-list-item-movie{
 background-size: 170%;          
-background-repeat: no-repeat;
-background-position: center; 
+background-repeat: no-repeat; 
 background-image: url(../images/card-lot-01.jpg);
 background-position: center;
 position: relative;
 height: 100%;
 }
+
 .lots_card-list-item-book{
 background-size: 170%;          
 background-repeat: no-repeat;
-background-position: center; 
 background-image: url(../images/card-lot-02.jpg);
 background-position: center;
+position: relative;
 height: 100%;
-
 }
 
 .lots_card-list-item-picture{
 background-size: 170%;          
 background-repeat: no-repeat;
-background-position: center; 
 background-image: url(../images/card-lot-03.jpg);
 background-position: center;
+position: relative;
 height: 100%;
 }
+
+.container_title{
+  width: 254px;
+  height: 110px;
+  margin: 48px 40px 30px 40px;
+}
+
+.card_title{
+text-decoration: underline; 
+line-height: 120%;
+text-decoration-color: white;
+color: white;
+font-weight: 700;
+font-size: 22px;
+text-transform: uppercase;
+}
+
+.card_text{
+font-weight: 400;
+color: white;
+font-size: 20px;
+}
+
+.card_text-container-movie{
+margin: 246px 40px 48px 40px;
+}
+.card_text-container-book{
+  margin: 30px 40px 48px 40px;
+}
+.card_text-container-picture{
+  margin: 126px 40px 48px 40px;
+}
+.card_link-container{
+  margin-top: 30px;
+  margin-left: 40px;
+}
+/*--------------------------------------------*/
+.about{
+display: grid;
+grid-template-columns: 334px 1fr;
+margin: 0 auto;
+margin-top: 120px;
+max-width: 1052px;
+height: 595px;
+}
+
+.about_logo{
+margin: 35px auto;
+position: relative;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 1);
+width: 240px;
+height: 240px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.about_logo-image{
+  position: relative;
+background-image: url(../images/logo-white.svg);
+z-index: 1;
+width: 142px;
+height: 113px;
+}
+
+.about_column_right{
+  justify-self: end; 
+  align-self: end;
+  width: 693px;
+  height: 449px;
+}
+.about_title-container{
+padding-bottom: 100;
+}
+
+.about_title{
+  text-transform: uppercase;
+font-weight: 700;
+font-size: 40px;
+padding-bottom: 100;
+}
+
+.about_text{
+margin-top: 100px;
+}
+
+.p{
+font-weight: 400;
+font-size: 20px;
+}
+
+.text_culture{
+padding-top: 24px;
+}
+
+
+
+
