@@ -1,39 +1,40 @@
 body{
-  font-family: "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
 }
+
 header{
-  display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  align-items: center;
-  height: 293px;
+display: grid;
+grid-template-columns: 1fr min-content 1fr;
+align-items: center;
+height: 293px;
 }
 
 .header_menu-list{
-  display: flex;
-  list-style:circle;
-  margin-left: 50px;
-  gap: 50px;
-  align-items: center;
-  
+display: flex;
+list-style:circle;
+margin-left: 50px;
+gap: 50px;
+align-items: center; 
 }
+
 .header_menu-link-main{
 list-style: none;
 }
 
 .header_logo-contain{
-  display: grid;
-  align-self: center;
-  justify-self: center; 
-  width: 148px;
-  height: 105px;
+display: grid;
+align-self: center;
+justify-self: center; 
+width: 148px;
+height: 105px;
 }
 
 .header_address {
-  display: flex;
-  text-decoration: none;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: 50px;
+display: flex;
+text-decoration: none;
+flex-direction: column;
+margin-left: auto;
+margin-right: 50px;
 }
 /*----------------------------------------*/
 
@@ -60,10 +61,10 @@ margin: 165px 50px 207px 50px;
 }
 
 .title_text{
-  letter-spacing: 28px;
-  font-size: 100px;
-  color: white;
-  text-transform: uppercase;
+letter-spacing: 28px;
+font-size: 100px;
+color: white;
+text-transform: uppercase;
 }
 
 .word-3{
@@ -104,14 +105,14 @@ text-transform: uppercase;
 font-weight:100;
 }
 .cover_overlay-button{
-  margin-left: auto;
-  text-transform: uppercase;
-  padding: 12px 32px;
-  font-size: 20px;
-  font-weight: 500;
-  border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.203); 
-  color: white;
+margin-left: auto;
+text-transform: uppercase;
+padding: 12px 32px;
+font-size: 20px;
+font-weight: 500;
+border: 1px solid white;
+background-color: rgba(0, 0, 0, 0.203); 
+color: white;
 }
 
 /*----------------------------------------------------*/
@@ -132,14 +133,14 @@ font-size: 40px;
 }
 
 .lots_card-list{
-  position: relative; 
-  list-style: none;              
-  padding: 0;
-  margin: 0;
-  display: grid;         
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px;     
-  grid-auto-rows: 596px;            
+position: relative; 
+list-style: none;              
+padding: 0;
+margin: 0;
+display: grid;         
+grid-template-columns: repeat(3, 1fr); 
+gap: 20px;     
+grid-auto-rows: 596px;            
 }
 
 .lots_card-list{
@@ -174,9 +175,9 @@ height: 100%;
 }
 
 .container_title{
-  width: 254px;
-  height: 110px;
-  margin: 48px 40px 30px 40px;
+width: 254px;
+height: 110px;
+margin: 48px 40px 30px 40px;
 }
 
 .card_title{
@@ -199,14 +200,14 @@ font-size: 20px;
 margin: 246px 40px 48px 40px;
 }
 .card_text-container-book{
-  margin: 30px 40px 48px 40px;
+margin: 30px 40px 48px 40px;
 }
 .card_text-container-picture{
-  margin: 126px 40px 48px 40px;
+margin: 126px 40px 48px 40px;
 }
 .card_link-container{
-  margin-top: 30px;
-  margin-left: 40px;
+margin-top: 30px;
+margin-left: 40px;
 }
 /*--------------------------------------------*/
 .about{
@@ -215,7 +216,6 @@ grid-template-columns: 334px 1fr;
 margin: 0 auto;
 margin-top: 120px;
 max-width: 1052px;
-height: 595px;
 }
 
 .about_logo{
@@ -239,10 +239,11 @@ height: 113px;
 }
 
 .about_column_right{
-  justify-self: end; 
-  align-self: end;
-  width: 693px;
-  height: 449px;
+justify-self: end; 
+align-self: end;
+width: 693px;
+margin-top: 133px;
+
 }
 .about_title-container{
 padding-bottom: 100;
@@ -268,6 +269,45 @@ font-size: 20px;
 padding-top: 24px;
 }
 
+.footer{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-top: 180px;
+}
+
+.footer_address{
+display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.footer_menu{
+display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 115px;
+}
+
+.footer_menu-list{
+text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer_social-list{
+  display: flex;
+  justify-self: end;
+}
+
+.footer_image{
+width: 48px;
+height: 48px;
+margin-right: 50px;
+}
 
 
 
