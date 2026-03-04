@@ -277,6 +277,8 @@ font-size: 20px;
 padding-top: 24px;
 }
 
+/*-----------------------------------*/
+
 .footer{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
