@@ -11,17 +11,17 @@
   </head>
   <body>
 
-<header class ="header">
+<header class ="header" id="home">
   <nav class="header_menu">
       <ul class="header_menu-list">
-        <li class="header_menu-item">
-          <a class="header_menu-link-main" href="#0">Главная</a>
+        <li class="header_menu-item-main">
+          <a class="header_menu-link-main" href="#home">Главная</a>
         </li>
         <li class="header_menu-item">
-          <a class="header_menu-link" href="#0">посмотреть лоты</a> 
+          <a class="header_menu-link" href="#lot">посмотреть лоты</a> 
         </li>
         <li class="header_menu-item">
-          <a class="header_menu-link" href="#0">об аукционе</a> 
+          <a class="header_menu-link" href="#about">об аукционе</a> 
         </li>
   </nav>
 
@@ -40,7 +40,7 @@
 </header>
 
 <main>
-  <div class="cover">
+  <section class="cover">
     <div class="cover_background">
       <div class="title_container">
         <h1 class="title_text">
@@ -54,9 +54,9 @@
         <button class="cover_overlay-button">сделать ставку</button>
       </div>
     </div>
-  </div>
+  </section>
 
-<section class="lot">
+<section class="lot" id="lot">
   <h2 class="lots_heading">Лоты</h2>
 
     <ul class="lots_card-list">
@@ -104,7 +104,7 @@
   </div>
 </section>
 
-<section class="about">
+<section class="about" id="about">
   <div class="about_column_left">
     <div class="about_logo">
       <div class="about_logo-image"></div>
@@ -134,17 +134,17 @@
 <nav class="footer_menu">
   <ul class="footer_menu-list">
       <li class="footer__menu-list-item">
-          <a href="#" class="footer_menu-link footer__menu-link_active">
+          <a href="#" class="footer_menu-link">
           Главная
           </a>
       </li>
       <li class="footer__menu-list-item">
-          <a href="#" class="footer_menu-link">
+          <a href="#lot" class="footer_menu-link">
           Посмотреть Лоты
           </a>
       </li>
       <li class="footer__menu-list-item">
-        <a href="#" class="footer_menu-link">
+        <a href="#about" class="footer_menu-link">
           Об Аукционе
         </a>
       </li>
@@ -153,17 +153,17 @@
 
   <ul class="footer_social-list">
     <li class="footer__social-list-item">
-      <a href="" class="footer__social-link">
+      <a href="https://www.youtube.com/" class="footer__social-link">
         <img src="images/yt.svg" alt="Изображение youtube" class="footer_image">
       </a>
     </li>
     <li class="footer__social-list-item">
-      <a href="" class="footer__social-link">
+      <a href="https://vk.com/" class="footer__social-link">
         <img src="images/vk.svg" alt="Изображение vk" class="footer_image">
       </a>
     </li>
     <li class="footer__social-list-item">
-      <a href="" class="footer__social-link">
+      <a href="https://pl.pinterest.com/" class="footer__social-link">
         <img src="images/pinterest.svg" alt="Изображение pintererest" class="footer_image">
       </a>
     </li>
