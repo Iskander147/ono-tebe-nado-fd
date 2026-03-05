@@ -24,7 +24,7 @@ ul {
   margin-left: 50px;
   gap: 50px;
   align-items: center; 
-}
+  }
 
 .header_menu-item-main {
   list-style: none;
