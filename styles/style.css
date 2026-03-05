@@ -268,13 +268,15 @@ ul {
   margin-top: 100px;
 }
 
-.p {
+.text_meeting {
   font-weight: 400;
   font-size: 20px;
+  padding-bottom: 24px;
 }
 
 .text_culture {
-  padding-top: 24px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 /*-----------------------------------*/
