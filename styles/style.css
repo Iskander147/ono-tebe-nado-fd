@@ -2,8 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body
-{
+body {
   font-family: "Raleway", sans-serif;
 }
 
@@ -20,11 +19,11 @@ ul {
 
 .header_menu-list {
   display: flex;
-  list-style:circle;
+  list-style: circle;
   margin-left: 50px;
   gap: 50px;
-  align-items: center; 
-  }
+  align-items: center;
+}
 
 .header_menu-item-main {
   list-style: none;
@@ -37,7 +36,7 @@ ul {
 .header_logo-contain {
   display: grid;
   align-self: center;
-  justify-self: center; 
+  justify-self: center;
   width: 148px;
   height: 105px;
 }
@@ -53,18 +52,18 @@ ul {
 /*----------------------------------------*/
 
 .cover {
-  position: relative; 
+  position: relative;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
-  background-size: 125%;          
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
-.cover_background {
-  position: absolute;  
-  inset: 0;            
-  background-color: rgba(0,0,0,0.6); 
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
@@ -89,16 +88,16 @@ ul {
 }
 
 .word-1 {
-  margin-left: 0 auto;   
+  margin-left: 0;
   margin-bottom: 20px;
 }
 
 .word-2 {
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .word-3 {
-  margin-left: auto;   
+  margin-left: auto;
   margin-top: 20px;
 }
 
@@ -112,13 +111,13 @@ ul {
 }
 
 .cover_overlay-text {
-  display: flex;                
-  justify-content: center;      
+  display: flex;
+  justify-content: center;
   align-items: center;
   word-spacing: 7px;
   font-size: 28px;
   text-transform: uppercase;
-  font-weight:100;
+  font-weight: 100;
 }
 .cover_overlay-button {
   margin-left: auto;
@@ -127,7 +126,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.203); 
+  background-color: rgba(0, 0, 0, 0.203);
   color: white;
 }
 
@@ -150,24 +149,20 @@ ul {
 }
 
 .lots_card-list {
-  position: relative; 
-  list-style: none;              
+  position: relative;
+  list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;         
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px;     
-  grid-auto-rows: 596px;            
-}
-
-.lots_card-list {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  min-height: 596px;
 }
 
 .lots_card-list-item-movie,
 .lots_card-list-item-book,
 .lots_card-list-item-picture {
-  background-size: 170%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -193,7 +188,7 @@ ul {
 }
 
 .card_title {
-  text-decoration: underline; 
+  text-decoration: underline;
   line-height: 120%;
   text-decoration-color: white;
   color: white;
@@ -256,21 +251,17 @@ ul {
 }
 
 .about_column_right {
-  justify-self: end; 
+  justify-self: end;
   align-self: end;
   width: 693px;
   margin-top: 133px;
 }
 
-.about_title-container {
-  padding-bottom: 100;
-}
 
 .about_title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
-  padding-bottom: 100;
 }
 
 .about_text {
@@ -290,6 +281,8 @@ ul {
 
 .footer {
   display: grid;
+  max-width: 1052px;
+  margin: 180px auto 0;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
 }
@@ -323,6 +316,3 @@ ul {
   height: 48px;
   margin-right: 50px;
 }
-
-
-
