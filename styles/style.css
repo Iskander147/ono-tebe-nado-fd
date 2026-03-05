@@ -92,12 +92,12 @@ ul {
 }
 
 .word-2 {
-  margin: 0 auto;
+  margin: 0 310px;
 }
 
 .word-3 {
-  margin-left: auto;
-  margin-top: 20px;
+  margin-left: 580px;
+  margin-top: 25px;
 }
 
 .cover_overlay-container {
@@ -114,13 +114,13 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  word-spacing: 7px;
-  font-size: 28px;
+  word-spacing: 90%;
+  font-size: 22px;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 400;
 }
 .cover_overlay-button {
-  margin-left: auto;
+  margin-left: 107px;
   text-transform: uppercase;
   padding: 12px 32px;
   font-size: 20px;
@@ -218,6 +218,12 @@ ul {
 .card_link-container {
   margin-top: 30px;
   margin-left: 40px;
+  text-underline-offset: 2px;
+}
+
+.card-link {
+font-weight: 400;
+font-size: 20px;
 }
 
 /*--------------------------------------------*/
