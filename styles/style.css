@@ -9,7 +9,7 @@
   display: flex;
   list-style: circle;
   margin-left: 50px;
-  gap: 32px;
+  gap: 34px;
   align-items: center;
   font-size: 18px;
   line-height: 100%;
@@ -29,7 +29,7 @@
   justify-self: center;
   width: 148px;
   height: 105px;
-  padding: 0 12px 7px 12px;
+  padding: 0 4px 0px 8px;
 }
 
 .address {
@@ -37,13 +37,16 @@
   flex-direction: column;
   text-decoration: none;
   font-style: normal;
+  white-space: wrap;
+  width: 240px;
 }
 
 .header_address {
   letter-spacing: 0%;
   font-size: 18px;
-  margin: 95px 50px 100px 184px;
+  margin: 98px 50px 100px 185px;
   line-height: 24px;
+  padding-right: 1px;
 }
 
 /*----------------------------------------*/
@@ -74,7 +77,7 @@
   text-transform: uppercase;
 }
 
-.title_word {
+.cover_word {
   display: block;
   width: max-content;
   font-weight: 700;
@@ -85,24 +88,28 @@
   z-index: 2;
 }
 
-.text-left {
+.cover_word-left {
   align-self: flex-start;
   margin-left: 50px;
 }
 
-.text-center {
+.cover_word-center {
   align-self: center;
   margin-top: 20px;
-  margin-left: 44.5px;
+  margin-left: 30px;
 }
 
-.text-right {
+.cover_word-right {
   align-self: flex-end;
   margin-top: 20px;
-  margin-right: 10px;
+  margin-right: 50px;
 }
 
-.cover_overlay-container {
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover_info {
   display: flex;
   position: absolute;
   bottom: 50px;
@@ -111,20 +118,20 @@
   z-index: 2;
 }
 
-.cover_overlay-text {
+.cover_text {
   display: flex;
   justify-content: center;
   align-items: center;
-  word-spacing: 20px;
+  word-spacing: 18px;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 400;
 }
 
-.cover_overlay-button {
+.cover_button {
   text-transform: uppercase;
   justify-content: flex-end;
-  margin-left: 100px;
+  margin-left: 109px;
   width: 256px;
   height: 51px;
   align-self: start;
@@ -134,14 +141,14 @@
   font-size: 22px;
   font-weight: 500;
   border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.203);
+  background-color: rgba(0, 0, 0, 0);
   color: white;
 }
 
 /*----------------------------------------------------*/
 .lots {
   margin: 0 auto;
-  margin-top: 180px;
+  margin-top: 186px;
   max-width: 1052px;
   max-height: 723px;
 }
@@ -156,7 +163,7 @@
   font-size: 40px;
 }
 
-.lots_card-list {
+.lots_list {
   position: relative;
   list-style: none;
   padding: 0;
@@ -167,9 +174,9 @@
   min-height: 596px;
 }
 
-.lots_card-list-item-movie,
-.lots_card-list-item-book,
-.lots_card-list-item-picture {
+.lots_item_movie,
+.lots_item_book,
+.lots_item_artwork {
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,19 +185,19 @@
   height: 100%;
 }
 
-.lots_card-list-item-movie {
+.lots_item_movie {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots_card-list-item-book {
+.lots_item_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots_card-list-item-picture {
+.lots_item_artwork {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.container_title {
+.card_title-container {
   width: 254px;
   height: 110px;
   margin: 48px 40px 30px 40px;
@@ -216,19 +223,19 @@
   font-size: 20px;
 }
 
-.card_text-container-movie {
+.card_text-movie {
   margin: 246px 40px 48px 40px;
 }
 
-.card_text-container-book {
+.card_text-book {
   margin: 30px 40px 48px 40px;
 }
 
-.card_text-container-picture {
+.card_text-artwork {
   margin: 126px 40px 48px 40px;
 }
 
-.card_link-container {
+.lots_more-link {
   margin-top: 30px;
   margin-left: 40px;
   text-decoration: underline;
@@ -239,6 +246,7 @@
 text-decoration-thickness: 1px;
 font-weight: 400;
 font-size: 20px;
+text-decoration: none
 }
 
 /*--------------------------------------------*/
@@ -288,15 +296,10 @@ font-size: 20px;
   margin-top: 100px;
 }
 
-.text_meeting {
+.about_paragraph {
   font-weight: 400;
   font-size: 20px;
   padding-bottom: 24px;
-}
-
-.text_culture {
-  font-weight: 400;
-  font-size: 20px;
 }
 
 /*-----------------------------------*/
@@ -320,31 +323,30 @@ font-size: 20px;
   margin-bottom: 115px;
 }
 
-.footer_menu-list_menu-link{
+.footer_item{
   text-decoration: none;
   border-bottom: none;
   list-style: none;
 }
 
-.footer_menu-link.active-link{
+.footer_link.active-link{
   list-style: none;
   text-decoration: none;
   border-bottom: none;
 }
 
-
-.footer_menu-list {
+.footer_list {
   text-align: center;
   list-style: none;
 }
 
-.footer_social-list {
+.footer_social {
   display: flex;
   justify-self: end;
   list-style: none;
 }
 
-.footer_image {
+.footer_social-icon {
   width: 48px;
   height: 48px;
   margin-right: 50px;
