@@ -15,7 +15,7 @@
   line-height: 100%;
 }
 
-.header_menu-item-main{
+.header_menu-item-main {
   list-style: none;
 }
 
@@ -176,7 +176,7 @@
   position: relative;
   display: flex;
   background-size: cover;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
@@ -234,22 +234,21 @@
 
 .card_text-movie {
   display: flex;
-  position: relative;               
-  flex-direction: column;      
+  position: relative;
+  flex-direction: column;
   margin: 277px 44px 48px 40px;
 }
 
 .card_text-book {
   position: relative;
-  display: flex;               
-  flex-direction: column;     
+  display: flex;
+  flex-direction: column;
   margin: 3px 40px 48px 40px;
-
 }
 
 .card_text-artwork {
-  display: flex;               
-  flex-direction: column;     
+  display: flex;
+  flex-direction: column;
   margin: 130px 40px 48px 40px;
 }
 
@@ -257,14 +256,14 @@
   margin-top: 30px;
   margin-left: 40px;
   text-decoration: underline;
-  text-underline-position: under; 
+  text-underline-position: under;
   text-decoration: none;
 }
 
 .card-link {
-text-decoration: none;
-font-weight: 400;
-font-size: 20px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 /*--------------------------------------------*/
@@ -292,7 +291,7 @@ font-size: 20px;
 .about_logo-image {
   position: relative;
   background-image: url(../images/logo-white.svg);
-  background-position: center;   
+  background-position: center;
   background-size: contain;
   width: 146px;
   height: 113px;
@@ -342,13 +341,13 @@ font-size: 20px;
   margin-bottom: 115px;
 }
 
-.footer_item{
+.footer_item {
   text-decoration: none;
   border-bottom: none;
   list-style: none;
 }
 
-.footer_link.active-link{
+.footer_link.active-link {
   list-style: none;
   text-decoration: none;
   border-bottom: none;

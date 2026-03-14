@@ -10,7 +10,6 @@ body {
   font-family: Raleway, sans-serif;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -28,17 +27,17 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
-  
 }
 
 a {
   color: inherit;
   text-decoration-color: black;
-  text-underline-position: under; 
+  text-underline-position: under;
 }
+
 p {
-font-weight: 400;
-font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 img {
