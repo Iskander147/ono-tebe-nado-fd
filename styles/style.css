@@ -150,7 +150,6 @@
   margin: 0 auto;
   margin-top: 186px;
   max-width: 1052px;
-  max-height: 723px;
 }
 
 .lots_heading {
@@ -171,35 +170,43 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  min-height: 596px;
 }
 
-.lots_item_movie,
-.lots_item_book,
-.lots_item_artwork {
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.lots_item {
   position: relative;
+  display: flex;
+  background-size: cover;
+  flex-direction:column;
+  justify-content: space-between;
   height: 100%;
 }
 
 .lots_item_movie {
+  display: flex;
+  background-position: center;
+  background-size: cover;
   background-image: url(../images/card-lot-01.jpg);
+  height: 100%;
 }
 
 .lots_item_book {
+  display: flex;
+  background-position: center;
+  background-size: cover;
   background-image: url(../images/card-lot-02.jpg);
+  height: 100%;
+  flex-wrap: wrap;
 }
 
 .lots_item_artwork {
+  display: flex;
+  background-position: center;
+  background-size: cover;
   background-image: url(../images/card-lot-03.jpg);
+  height: 100%;
 }
 
 .card_title-container {
-  width: 254px;
-  height: 110px;
   margin: 48px 40px 30px 40px;
 }
 
@@ -213,6 +220,7 @@
   font-size: 22px;
   text-transform: uppercase;
   z-index: 2;
+  text-decoration-thickness: 1px;
 }
 
 .card_text {
@@ -221,18 +229,28 @@
   font-weight: 400;
   color: white;
   font-size: 20px;
+  letter-spacing: 0%;
 }
 
 .card_text-movie {
-  margin: 246px 40px 48px 40px;
+  display: flex;
+  position: relative;               
+  flex-direction: column;      
+  margin: 277px 44px 48px 40px;
 }
 
 .card_text-book {
-  margin: 30px 40px 48px 40px;
+  position: relative;
+  display: flex;               
+  flex-direction: column;     
+  margin: 3px 40px 48px 40px;
+
 }
 
 .card_text-artwork {
-  margin: 126px 40px 48px 40px;
+  display: flex;               
+  flex-direction: column;     
+  margin: 130px 40px 48px 40px;
 }
 
 .lots_more-link {
@@ -240,13 +258,13 @@
   margin-left: 40px;
   text-decoration: underline;
   text-underline-position: under; 
+  text-decoration: none;
 }
 
 .card-link {
-text-decoration-thickness: 1px;
+text-decoration: none;
 font-weight: 400;
 font-size: 20px;
-text-decoration: none
 }
 
 /*--------------------------------------------*/
@@ -274,8 +292,9 @@ text-decoration: none
 .about_logo-image {
   position: relative;
   background-image: url(../images/logo-white.svg);
-  z-index: 1;
-  width: 142px;
+  background-position: center;   
+  background-size: contain;
+  width: 146px;
   height: 113px;
 }
 
