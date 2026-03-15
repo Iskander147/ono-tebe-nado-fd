@@ -189,7 +189,6 @@
 
 .lots_item_book {
   background-image: url(../images/card-lot-02.jpg);
-  flex-wrap: wrap;
 }
 
 .lots_item_artwork {
